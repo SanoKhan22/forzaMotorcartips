@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#462323"
+    android:orientation="vertical"
+    tools:context=".Activityintro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="398dp"
+            android:layout_height="78dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6165143774808397/3256662382"></com.google.android.gms.ads.AdView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/imageintro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#721B0D0D"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-120dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:padding="8dp"
+        android:text="Forza Motorcar \nIntroduction"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="22dp"
+        android:background="#435A5050"
+        android:fontFamily="@font/autour_one"
+        android:padding="8dp"
+        android:text=" Forza  is a series of semi-sim racing video games for Xbox consoles and Microsoft Windows published by Xbox Game Studios. The franchise is primarily divided into two series; the original Forza Motorsport series developed by American developer Turn 10 Studios, which focuses on primarily professional-style track racing events and series around various tracks both real and fictional, and the Forza Horizon series mainly developed by British developer Playground Games\n\nGenre(s)	Racing\n"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorWhite"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="22dp"
+        android:background="#7C666060"
+        android:fontFamily="@font/autour_one"
+        android:padding="8dp"
+        android:text="AVALAIBILITY\n\n
+Xbox\n
+Xbox 360\n
+Xbox One\n
+Xbox Series X\n
+Microsoft Windows"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorWhite"
+        android:textSize="10dp" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A1010"
+    tools:context=".Activitytopten">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="391dp"
+            android:layout_height="76dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6165143774808397/3256662382">
+
+        </com.google.android.gms.ads.AdView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/forzastreet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#721B0D0D"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:gravity="bottom"
+            android:layout_marginTop="-122dp"
+            android:text=" Latest game"
+            android:textAlignment="center"
+            android:textColor="#F5EDED"
+            android:textSize="25dp" />
+
+        // starting from 10
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="
+Forza Street
+"
+            android:textColor="#fff"
+            android:textSize="38dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorAquaDark"
+            android:fontFamily="@font/days_one"
+            android:text="April 15, 2019"
+            android:textColor="#fff"
+            android:padding="20dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="#000"
+            android:padding="30dp"
+            android:fontFamily="@font/autour_one"
+            android:text="
+AVALAIBILITY:\n\nXbox\n
+Xbox 360\n
+Xbox One\n
+Xbox Series X\n
+Microsoft Windows"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorAquaDark"
+            android:fontFamily="@font/days_one"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:text="ALSO AVALAIBLE FOR:\n
+ANDROID\nIOS"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

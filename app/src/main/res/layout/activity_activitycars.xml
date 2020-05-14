@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3000000"
+    tools:context="com.sano.k.forzamotorcar.Activitycars">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="411dp"
+            android:layout_height="84dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6165143774808397/3256662382"></com.google.android.gms.ads.AdView>
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="322dp"
+            android:background="@drawable/topcars" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-110dp"
+            android:layout_marginBottom="10dp"
+            android:background="#A9201D1D"
+            android:fontFamily="@font/luckiest_guy"
+            android:text="BEST CAR\nCOLLECTION"
+            android:textAlignment="center"
+            android:textColor="#fff"
+
+            android:textSize="33dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="20dp"
+            android:background="#6F838286"
+            android:fontFamily="@font/graduate"
+            android:text="
+1)-- Plymouth GTX Fast and Furious Edition (270 MPH {FASTEST)\n
+2)-- Ferrari 458 Speciale\n
+3)-- Ultima Evolution Coupe\n
+4)--2018 Porsche 911 GT2 RS\n
+5)-- 1997 Lotus Elise GT1\n
+6)-- Aston Martin GT12\n
+7)--2010 Noble M600\n
+8)--1997 McLaren F1 GT\n"
+            android:textAlignment="textStart"
+            android:textColor="#fff"
+            android:textSize="22dp"
+
+            />
+    </LinearLayout>
+
+
+</ScrollView>

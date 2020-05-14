@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sano.k.forzamotorcar.Activitytricks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#251E1E"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="411dp"
+            android:layout_height="84dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-6165143774808397/3256662382">
+
+
+        </com.google.android.gms.ads.AdView>
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/imagetricks"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="-130dp"
+            android:background="#9F0C1A17"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:padding="10dp"
+            android:text="FM TRICKS"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="30dp"
+            android:background="#0E3C38"
+            android:fontFamily="@font/autour_one"
+            android:padding="10dp"
+            android:text="Boost with mod cards\n\n Prize crates are full of semi-random goodies, and they usually cost credits to buy. The best way to win credits quickly is to use mod cards. These are single or multi-use modifier cards that, as in Forza Motorsport 6, you play before a race and then try to fulfil its criteria in order to get a boost in credits when the race finishes.  Look for cards that increase your credits easily, especially those that fit your driving style. If you're good at hitting the cornering challenges (like get required entry speed, braking point, acceleration point, apex and overall line and get a 'Perfect' grade), then play the mod cards that reward that. If you're good at overtaking, play those. Some mod cards restrict the driving line to 'braking only' - but if like us you don't drive with it on, that means an ultra-easy credits boost. For any card that doesn't fit your particular skillset, sell it immediately and use the money either to buy cars or to unlock another prize crate.  \n\nYou should focus on the best prize crates, with the highest chance of winning something awesome. These require a lot of credits, so take some time to look through your stash of mod cards and your garage, and sell anything you don’t want. Be careful, though, you might want to keep your cars as they might be useful in later series, otherwise you’ll only need to buy them again. And that would be waste of money."
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        //2
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#310C18"
+            android:fontFamily="@font/capriola"
+            android:padding="10dp"
+            android:text="Take part in short races to max out SP \n\nSP is awarded for finishing races, like points, and although you do get more SP for finishing higher, it’s still doled out if you finish a little down the field. That means that, since you can earn 300SP for finishing an hour-long endurance race or 200SP for a single Formula E race that takes 5 minutes, it makes more sense to tackle short series with lots of races if you want to progress through the game and reach the higher levels sooner. "
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#3C2466"
+            android:fontFamily="@font/graduate"
+            android:padding="10dp"
+            android:text="Take part in short races to max out SP \n\nSP is awarded for finishing races, like points, and although you do get more SP for finishing higher, it’s still doled out if you finish a little down the field. That means that, since you can earn 300SP for finishing an hour-long endurance race or 200SP for a single Formula E race that takes 5 minutes, it makes more sense to tackle short series with lots of races if you want to progress through the game and reach the higher levels sooner. "
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#173A0B"
+            android:fontFamily="@font/capriola"
+            android:padding="10dp"
+            android:text="So, in summary, drive as often and as much as possible, always use mod cards in races – ones that suit your driving style and the series in question - save your money for the best prize crates, and sell mods you don’t think you’ll use. Do all that and racing greatness awaits."
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

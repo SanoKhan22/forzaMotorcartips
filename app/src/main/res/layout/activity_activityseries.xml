@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#aef"
+    android:layout_height="match_parent"
+    tools:context=".Activityseries">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="411dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-6165143774808397/3256662382"></com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/seriespic"
+                android:fontFamily="@font/holtwood_one_sc"
+                android:gravity="bottom"
+                android:text=" FORZA Motorcar\nSERIES"
+                android:layout_marginTop="3dp"
+                android:textAlignment="center"
+                android:textColor="#F5EDED"
+                android:textSize="25dp" />
+
+            //first row
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#723EB3"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-12dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2005"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#723EB3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar 2"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-12dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2007"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#853908"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar 3"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-22dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2009"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#103F52"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar 4"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-12dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2011"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#103F52"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar 5"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16dp"  />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-12dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2013"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#77461B"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar 6"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-15dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2016"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="#D32B0B36"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="8dp"
+                        android:text="Forza Motorcar 7 "
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="-15dp"
+                        android:background="#0D1C38"
+                        android:fontFamily="@font/luckiest_guy"
+                        android:padding="8dp"
+                        android:text="YEAR: 2017"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        <!-- End forth Row-->
+        //fifth row
+
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
